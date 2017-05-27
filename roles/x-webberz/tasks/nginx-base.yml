@@ -1,0 +1,198 @@
+---
+
+
+ - name: transfer fontconfig-2
+   copy: src=rpms/ngin_base/fontconfig-2.10.95-10.el7.x86_64.rpm dest=/tmp/fontconfig-2.10.95-10.el7.x86_64.rpm
+
+ - name: install fontconfig-2
+   yum: name=/tmp/fontconfig-2.10.95-10.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer fontpackages-filesystem-1
+   copy: src=rpms/ngin_base/fontpackages-filesystem-1.44-8.el7.noarch.rpm dest=/tmp/fontpackages-filesystem-1.44-8.el7.noarch.rpm
+
+ - name: install fontpackages-filesystem-1
+   yum: name=/tmp/fontpackages-filesystem-1.44-8.el7.noarch.rpm state=present
+
+
+
+
+ - name: transfer gd-2
+   copy: src=rpms/ngin_base/gd-2.0.35-26.el7.x86_64.rpm dest=/tmp/gd-2.0.35-26.el7.x86_64.rpm
+
+ - name: install gd-2
+   yum: name=/tmp/gd-2.0.35-26.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer gperftools-libs-2
+   copy: src=rpms/ngin_base/gperftools-libs-2.4-8.el7.x86_64.rpm dest=/tmp/gperftools-libs-2.4-8.el7.x86_64.rpm
+
+ - name: install gperftools-libs-2
+   yum: name=/tmp/gperftools-libs-2.4-8.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer libjpeg-turbo-1
+   copy: src=rpms/ngin_base/libjpeg-turbo-1.2.90-5.el7.x86_64.rpm dest=/tmp/libjpeg-turbo-1.2.90-5.el7.x86_64.rpm
+
+ - name: install libjpeg-turbo-1
+   yum: name=/tmp/libjpeg-turbo-1.2.90-5.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer libpng-1
+   copy: src=rpms/ngin_base/libpng-1.5.13-7.el7_2.x86_64.rpm dest=/tmp/libpng-1.5.13-7.el7_2.x86_64.rpm
+
+ - name: install libpng-1
+   yum: name=/tmp/libpng-1.5.13-7.el7_2.x86_64.rpm state=present
+
+
+
+
+ - name: transfer libunwind-1
+   copy: src=rpms/ngin_base/libunwind-1.1-5.el7_2.2.x86_64.rpm dest=/tmp/libunwind-1.1-5.el7_2.2.x86_64.rpm
+
+ - name: install libunwind-1
+   yum: name=/tmp/libunwind-1.1-5.el7_2.2.x86_64.rpm state=present
+
+
+
+
+ - name: transfer libX11-1
+   copy: src=rpms/ngin_base/libX11-1.6.3-3.el7.x86_64.rpm dest=/tmp/libX11-1.6.3-3.el7.x86_64.rpm
+
+ - name: install libX11-1
+   yum: name=/tmp/libX11-1.6.3-3.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer libX11-common-1
+   copy: src=rpms/ngin_base/libX11-common-1.6.3-3.el7.noarch.rpm dest=/tmp/libX11-common-1.6.3-3.el7.noarch.rpm
+
+ - name: install libX11-common-1
+   yum: name=/tmp/libX11-common-1.6.3-3.el7.noarch.rpm state=present
+
+
+
+
+ - name: transfer libXau-1
+   copy: src=rpms/ngin_base/libXau-1.0.8-2.1.el7.x86_64.rpm dest=/tmp/libXau-1.0.8-2.1.el7.x86_64.rpm
+
+ - name: install libXau-1
+   yum: name=/tmp/libXau-1.0.8-2.1.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer libxcb-1
+   copy: src=rpms/ngin_base/libxcb-1.11-4.el7.x86_64.rpm dest=/tmp/libxcb-1.11-4.el7.x86_64.rpm
+
+ - name: install libxcb-1
+   yum: name=/tmp/libxcb-1.11-4.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer libXpm-3
+   copy: src=rpms/ngin_base/libXpm-3.5.11-3.el7.x86_64.rpm dest=/tmp/libXpm-3.5.11-3.el7.x86_64.rpm
+
+ - name: install libXpm-3
+   yum: name=/tmp/libXpm-3.5.11-3.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer libxslt-1
+   copy: src=rpms/ngin_base/libxslt-1.1.28-5.el7.x86_64.rpm dest=/tmp/libxslt-1.1.28-5.el7.x86_64.rpm
+
+ - name: install libxslt-1
+   yum: name=/tmp/libxslt-1.1.28-5.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer nginx-1
+   copy: src=rpms/ngin_base/nginx-1.10.2-1.el7.x86_64.rpm dest=/tmp/nginx-1.10.2-1.el7.x86_64.rpm
+
+ - name: install nginx-1
+   yum: name=/tmp/nginx-1.10.2-1.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer nginx-all-modules-1
+   copy: src=rpms/ngin_base/nginx-all-modules-1.10.2-1.el7.noarch.rpm dest=/tmp/nginx-all-modules-1.10.2-1.el7.noarch.rpm
+
+ - name: install nginx-all-modules-1
+   yum: name=/tmp/nginx-all-modules-1.10.2-1.el7.noarch.rpm state=present
+
+
+
+
+ - name: transfer nginx-filesystem-1
+   copy: src=rpms/ngin_base/nginx-filesystem-1.10.2-1.el7.noarch.rpm dest=/tmp/nginx-filesystem-1.10.2-1.el7.noarch.rpm
+
+ - name: install nginx-filesystem-1
+   yum: name=/tmp/nginx-filesystem-1.10.2-1.el7.noarch.rpm state=present
+
+
+
+
+ - name: transfer nginx-mod-http-geoip-1
+   copy: src=rpms/ngin_base/nginx-mod-http-geoip-1.10.2-1.el7.x86_64.rpm dest=/tmp/nginx-mod-http-geoip-1.10.2-1.el7.x86_64.rpm
+
+ - name: install nginx-mod-http-geoip-1
+   yum: name=/tmp/nginx-mod-http-geoip-1.10.2-1.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer nginx-mod-http-image-filter-1
+   copy: src=rpms/ngin_base/nginx-mod-http-image-filter-1.10.2-1.el7.x86_64.rpm dest=/tmp/nginx-mod-http-image-filter-1.10.2-1.el7.x86_64.rpm
+
+ - name: install nginx-mod-http-image-filter-1
+   yum: name=/tmp/nginx-mod-http-image-filter-1.10.2-1.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer nginx-mod-http-perl-1
+   copy: src=rpms/ngin_base/nginx-mod-http-perl-1.10.2-1.el7.x86_64.rpm dest=/tmp/nginx-mod-http-perl-1.10.2-1.el7.x86_64.rpm
+
+ - name: install nginx-mod-http-perl-1
+   yum: name=/tmp/nginx-mod-http-perl-1.10.2-1.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer nginx-mod-http-xslt-filter-1
+   copy: src=rpms/ngin_base/nginx-mod-http-xslt-filter-1.10.2-1.el7.x86_64.rpm dest=/tmp/nginx-mod-http-xslt-filter-1.10.2-1.el7.x86_64.rpm
+
+ - name: install nginx-mod-http-xslt-filter-1
+   yum: name=/tmp/nginx-mod-http-xslt-filter-1.10.2-1.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer nginx-mod-mail-1
+   copy: src=rpms/ngin_base/nginx-mod-mail-1.10.2-1.el7.x86_64.rpm dest=/tmp/nginx-mod-mail-1.10.2-1.el7.x86_64.rpm
+
+ - name: install nginx-mod-mail-1
+   yum: name=/tmp/nginx-mod-mail-1.10.2-1.el7.x86_64.rpm state=present
+
+
+
+
+ - name: transfer nginx-mod-stream-1
+   copy: src=rpms/ngin_base/nginx-mod-stream-1.10.2-1.el7.x86_64.rpm dest=/tmp/nginx-mod-stream-1.10.2-1.el7.x86_64.rpm
+
+ - name: install nginx-mod-stream-1
+   yum: name=/tmp/nginx-mod-stream-1.10.2-1.el7.x86_64.rpm state=present
+
