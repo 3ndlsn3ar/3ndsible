@@ -7,7 +7,7 @@ This is just me doing the things
 Stuff List
 ----------
 -NGINX
- -Gitlab
+-Gitlab
 -APACHE
 -DATABASE
 -NORMIE
